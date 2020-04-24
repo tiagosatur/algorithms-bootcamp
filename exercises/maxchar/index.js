@@ -26,10 +26,11 @@ function maxChar(str) {
 
   // search which char has greater value
   for (char in charMap) {
-    if (charMap[char] > max) {
-      max = charMap[char];
-      maxChar = char;
-    }
+    charMap[char] > max && ((max = charMap[char]), (maxChar = char));
+    // if (charMap[char] > max) {
+    //   max = charMap[char];
+    //   maxChar = char;
+    // }
   }
 
   return maxChar;
