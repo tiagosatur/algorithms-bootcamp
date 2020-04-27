@@ -8,7 +8,7 @@ This repo has algorithm challenges used in coding interviews.
 
 ## Watch a specific file
 
-`cd exercides`
+`cd exercises`
 
 `jest fib/test.js --watch`
 
